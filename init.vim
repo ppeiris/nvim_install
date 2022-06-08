@@ -38,8 +38,13 @@ Plug 'glepnir/lspsaga.nvim'
 Plug 'simrat39/symbols-outline.nvim'
 Plug 'nvim-treesitter/playground'
 
+" show function signatures
+" https://github.com/ray-x/lsp_signature.nvim
+Plug 'ray-x/lsp_signature.nvim'
+
+
 " Neovim Tree shitter
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate :TSInstall python :TSInstall php'}
 Plug 'nvim-treesitter/playground'
 
 
@@ -49,7 +54,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
-
+Plug 'nvim-treesitter/highlight.lua'
 
 Plug 'easymotion/vim-easymotion'
 
@@ -57,7 +62,6 @@ Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 call plug#end()
 
-":TSInstall query
 
 
 nmap <F6> :NERDTreeToggle<CR>
