@@ -94,3 +94,10 @@ noremap <C-k> <C-W>k
 noremap <C-h> <C-W>h
 noremap <C-l> <C-W>l
 
+
+" Telescope command maps
+noremap <leader>ff <cmd>Telescope find_files<cr>
+noremap <leader>fg <cmd>Telescope live_grep<cr>
+noremap <leader>fb <cmd>Telescope buffers<cr>
+noremap <leader>fh <cmd>Telescope help_tags<cr>
+
