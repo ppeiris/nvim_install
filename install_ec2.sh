@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -o vi
+
 sudo yum install epel-release cmake3 -y
 sudo yum remove cmake -y
 sudo ln -s /usr/bin/cmake3 /usr/bin/cmake -y
