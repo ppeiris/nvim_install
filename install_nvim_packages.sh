@@ -11,3 +11,6 @@ yes | cp -i init.vim ~/.config/nvim/init.vim
 
 git config --global user.email "prabath.peiris@ftr.com"
 git config --global user.name "Prabath Peiris"
+
+
+cp .screenrc ../
